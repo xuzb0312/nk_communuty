@@ -19,6 +19,7 @@ import java.util.stream.Stream;
 
 @Controller
 public class HomeController {
+    //这也是测试vscode
     @Autowired
     private DiscussPostService discussPostService;
     @Autowired

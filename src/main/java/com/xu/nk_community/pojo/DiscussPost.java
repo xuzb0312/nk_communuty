@@ -11,6 +11,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class DiscussPost {
+    // 测试vscode
     private int id;
     private int userId;
     private String title;
@@ -20,6 +21,8 @@ public class DiscussPost {
     private Date createTime;
     private int commentCount;
     private double score;
+    
+
 
     @Override
     public String toString() {
@@ -35,4 +38,5 @@ public class DiscussPost {
                 ", score=" + score +
                 '}';
     }
+
 }
